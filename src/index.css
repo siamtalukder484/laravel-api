@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+nav{
+  padding: 20px 0;
+  background-color: blueviolet;
+}
+.nav_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h1{
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
+.menu ul{
+  display: flex;
+  column-gap: 45px;
+}
+.menu ul li a{
+  color: #fff;
+  font-size: 22px;
+}
+.menu ul li .active{
+  color: red;
+}
+.footer{
+  background-color: blueviolet;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  
+}
+h1{
+  margin: 200px 0;
+}
+.count{
+  margin: 0;
+}
+.form_main{
+  margin: 20px 0;
+  width: 300px;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+}
+.form_main input{
+  padding: 10px;
+  
+}
